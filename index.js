@@ -40,8 +40,6 @@ app.get('/register', (req, res) => {
     res.render('register');
 });
 
-/*
-
 //10. Registramos el usuario
 app.post('/register', async (req, res) => {
     const user = req.body.user;
