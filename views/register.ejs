@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Usuario</title>
+    <link rel="stylesheet" href="resources/css/estilos.css">
+    <script src="resources/js/comprobarContraseñas.js"></script>
+</head>
+<body>
+    
+    <h1 class="titulo">Crear Usuario</h1>
+    <div class="contenedor">
+        <div class="imagen"><img src="resources/img/Add_user.png" alt=""></div>
+        <form action="register" method="POST" class="formulario">
+            <input type="text" name="user" id="user" placeholder="Nombre de Usuario" required>
+            <input type="text" name="name" id="name" placeholder="Nombre Completo" required>
+            <input type="password" name="pass" id="pass" placeholder="Contraseña" required>
+            <input type="password" name="pass2" id="pass2" placeholder="Confirmar contraseña" required>
+            <input type="submit" value="Crear Usuario" class="btn registro">
+            <a href="login">Iniciar Sesion</a>
+        </form>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <% if (typeof alert !== 'undefined') { %>
+        <script>
+            Swal.fire({
+                title: '<%= alertTitle %>',
+                text: '<%= alertMessage %>',
+                icon: '<%= alertIcon %>',
+                showConfirmButton: <%= showConfirmButton %>,
+                timer: <%= timer %>
+            }).then(()=>{
+                window.location.href = '/<%= ruta  %>';
+
+            });
+        </script>
+<% } %>
+</body>
+</html>

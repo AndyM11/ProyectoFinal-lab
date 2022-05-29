@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="resources/css/estilos-main.css">
+    <link rel="stylesheet" href="resources/css/cerrar-seccion.css">
+    <script src="resources/js/menu.js"></script>
+</head>
+<body>
+    <!--barra de menu-->
+    <div class="menu">
+            <div class="logo">
+                <a href="#">Proyecto Final</a>
+            </div>
+
+            <nav>
+                <ul id="ul">
+
+                </ul>
+            </nav>
+        </div>
+        <div class="contenedor-menu" id="submenu">
+    
+        </div>
+
+    </body>
+        <% if (login){ %>
+        <div class="container">
+            <h2>El usuario conectado es: <%= name %>
+            </h2>
+            <a href="logout" class="a-logout">Cerrar la sesion</a>
+        </div>
+        <% } else { %>
+            <div class="container">
+                <h2>
+                    <%= name %>
+                </h2>
+                <a href="login" class="a-login">Ir al Login</a>
+            </div>
+            <%}%>
+
+            
+        
+</html>

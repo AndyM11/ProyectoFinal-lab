@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3</title>
+    <link rel="stylesheet" href="resources/css/cerrar-seccion.css">
+    <link rel="stylesheet" href="resources/css/lab7.css" />
+    <script src="resources/js/lab7b.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Condiciones medicas</h1>
+        <div class="contenedor-formulario">
+            <form action="" method="get" id="formulario3">
+            
+                <select name="enfermedad" id="enfermedad">
+                    <option value="">Enfermedad</option>
+                    <option value="diabetes">Diabetes</option>
+                    <option value="hipertension">Hipertensión</option>
+                    <option value="cancer">Cáncer</option>
+                    <option value="cardiopatia">Cardiopatía</option>
+                    <option value="obesidad">Obesidad</option>
+                    <option value="otra">Otra</option>
+                </select>
+
+                <input type="text" name="tiempo" id="tiempo" placeholder="Tiempo con la enfermedad">
+
+                <textarea name="detalles" id="detalles" cols="30" rows="10" placeholder="Detalles de la enfermedad"></textarea>
+
+
+                <input name="enviar" class="enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    
+</body>

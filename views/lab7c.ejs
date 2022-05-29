@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="resources/css/cerrar-seccion.css">
+    <link rel="stylesheet" href="resources/css/lab7.css" />
+    <script src="resources/js/lab7c.js"></script>
+</head>
+<body>
+    <!--Crea una tabla con los registros-->
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Correo Electronico</th>
+            <th>Teléfono</th>
+            <th>Dirección</th>
+            <th>Sexo</th>
+        </tr>
+
+        <tr>
+            <td id="nombre"></td>
+            <td id="apellido"></td>
+            <td id="edad"></td>
+            <td id="email"></td>
+            <td id="telefono"></td>
+            <td id="direccion"></td>
+            <td id="sexo"></td>
+        </tr>
+        <tr>
+            <th>Nombre del Pariente</th>
+            <th>Relacion con el paciente</th>
+            <th>Edad del Pariente</th>
+            <th>Teléfono del Pariente</th>
+            <th>Dirección del Pariente</th>
+        </tr>
+        <tr>
+            <td id="nombreP"></td>
+            <td id="relacion"></td>
+            <td id="edadP"></td>
+            <td id="telefonoP"></td>
+            <td id="direccionP"></td>
+        </tr>
+
+        <tr>
+            <th>Enfermedad</th>
+            <th>Tiempo de la Enfermedad</th>
+            <th>Detalles de la enfermedad</th>
+        </tr>
+        <tr>
+            <td id="enfermedad"></td>
+            <td id="tiempo"></td>
+            <td id="detalles"></td>
+        </tr>
+    </table>
+    
+</body>
+
+<% if (login){ %>
+    <div class="container">
+        <a href="logout" class="a-logout">Cerrar la sesion</a>
+        <a href="/" class="a-login">Volver al Index</a>
+    </div>
+    <% } else { %>
+        <div class="container">
+            <h2>
+                <%= name %>
+            </h2>
+            <a href="login" class="a-login">Ir al Login</a>
+        </div>
+        <%}%>
+</html>

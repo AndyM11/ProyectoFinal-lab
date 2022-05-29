@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Biografia Andy Manuel Reyes Del Rosario
+        </title>
+        <link rel="stylesheet" href="resources/css/cerrar-seccion.css">
+    </head>
+    <body>
+    <h1>Andy Manuel Reyes Del Rosario</h1>
+
+    <img src="resources/img/Andy.png" alt="">
+
+    <p>Técnico en informática egresado del Instituto Técnico Salesiano (ITESA), estudiante de la carrera de 
+        Licenciatura en informática en la Universidad Autonoma de Santo Domingo (UASD), nacido el 11 de frebrero
+    del 1999 con una edad a la fecha de crear este biografia de 23 años</p>
+
+    <table border="1">
+        <tr>
+            <th>Horas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sabado</th>
+        </tr>
+        <tr>
+            <td>7 AM</td>
+            <td>Inteligencia Artificial</td>
+            <td>Inteligencia Artificial</td>
+            <td>Lab Lenguaje de Program III</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9 AM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Redes De Proc De Datos</td>
+        </tr>
+        <tr>
+            <td>10 AM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Redes De Proc De Datos</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2 PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Teleproceso</td>
+        </tr>
+        <tr>
+            <td>4 PM</td>
+            <td></td>
+            <td>Base de Datos I</td>
+            <td></td>
+            <td>Base de Datos I</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5 PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Teleproceso</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8 PM</td>
+            <td></td>
+            <td>Lenguaje de Programación III</td>
+            <td></td>
+            <td>Lenguaje de Programación III</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+        
+    </body>
+    <% if (login){ %>
+        <div class="container">
+            <a href="logout" class="a-logout">Cerrar la sesion</a>
+        </div>
+        <% } else { %>
+            <div class="container">
+                <h2>
+                    <%= name %>
+                </h2>
+                <a href="login" class="a-login">Ir al Login</a>
+            </div>
+            <%}%>
+</html>

@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>102 Tags HTML</title>
+    <link rel="stylesheet" href="resources/css/cerrar-seccion.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    body {
+        font-family: Roboto, sans-serif;
+    }
+
+    .contenedor {
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #000;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #000;
+    }
+
+    p {
+        font-size: 1rem;
+        color: #000;
+    }
+
+    code {
+        font-size: 1rem;
+        color: #000;
+        background-color: #f5f5f5;
+        padding: 0.5rem;
+        font-weight: 700;
+    }
+
+    .ejemplo {
+        background-color: #f5f5f5;
+        padding: 0px;
+        margin: 0;
+    }
+
+    hr {
+        border: 0.1px solid #bfbfbf;
+        width: 70%;
+    }
+</style>
+
+<body>
+    <h1>Etiquetas HTML</h1>
+    <div class="contenedor">
+        <!--1-->
+        <h3>Etiqueta <code>&lt;a&gt;</code></h3>
+        <p>El Elemento HTML Anchor <code>&lt;a&gt;</code> crea un enlace a otras páginas de internet, archivos o
+            ubicaciones dentro de la
+            misma
+            página, direcciones de correo, o cualquier otra URL.
+        </p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--2-->
+        <h3>Etiqueta <code>&lt;abbr&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;abbr&gt;</code> (o Elemento de Abreviación HTML) representa una abreviación o
+            acrónimo; el atributo
+            opcional title puede ampliar o describir la abreviatura. Si está presente, el atributo title debe
+            contener la descripción completa y nada más.
+        </p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;abbr title="World Wide Web Consortium"&gt;W3C&lt;/abbr&gt;
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--3-->
+        <h3>Etiqueta <code>&lt;acronym&gt;</code></h3>
+        <p>Es el encargado para marcar estas formas abreviadas (modem, AJAX...). Además, gracias al atributo title
+            podemos indicar la versión extendida del término.</p>
+
+        <p>Sus etiquetas son: <code>&lt;acronym&gt;</code> y <code>&lt;/acronym&gt;</code> (ambas obligatorias).</p>
+        <p>Crea una caja: en linea.</p>
+        <p>Está definido como: Elemento de frase.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;acronym title="World Wide Web Consortium"&gt;W3C&lt;/acronym&gt;
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--4-->
+        <h3>Etiqueta <code>&lt;address&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;address&gt;</code> (o Elemento de Dirección HTML) es una etiqueta de tipo bloque
+            que puede
+            contener información de contacto de una página web.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;address&gt;<br>
+            &lt;p&gt;<br>
+            &lt;strong&gt;Company:&lt;/strong&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;p&gt;<br>
+            &lt;strong&gt;Address:&lt;/strong&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;/address&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--5-->
+        <h3>Etiqueta <code>&lt;area&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;area&gt;</code> (o Elemento de Área HTML) es un elemento de formulario de tipo
+            área.</p>
+        <p>El elemento <code>&lt;area&gt;</code> puede ser usado para definir áreas de un mapa de imagen, o para
+            definir</p>
+        <p>áreas de un formulario de tipo <code>&lt;select&gt;</code> o <code>&lt;input&gt;</code>.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;area shape="rect" coords="0,0,82,126" href="http://www.w3.org" alt="W3C"&gt;
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--6-->
+        <h3>Etiqueta <code>&lt;article&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;article&gt;</code> (o Elemento de Artículo HTML) es un elemento de tipo
+            bloque
+            que puede contener información de un artículo.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;article&gt;<br>
+            &lt;h1&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/h1&gt;<br>
+            &lt;p&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;/article&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--7-->
+        <h3>Etiqueta <code>&lt;aside&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;aside&gt;</code> (o Elemento de Sección HTML) es un elemento de tipo
+            bloque
+            que puede contener información de una sección.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;aside&gt;<br>
+            &lt;h1&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/h1&gt;<br>
+            &lt;p&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;/aside&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--8-->
+        <h3>Etiqueta <code>&lt;audio&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;audio&gt;</code> (o Elemento de Audio HTML) es un elemento de tipo
+            bloque
+            que puede contener información de audio.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;audio&gt;<br>
+            &lt;source src="horse.ogg" type="audio/ogg"&gt;<br>
+            &lt;source src="horse.mp3" type="audio/mpeg"&gt;<br>
+            &lt;source src="horse.wav" type="audio/wav"&gt;<br>
+            &lt;/audio&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--9-->
+        <h3>Etiqueta <code>&lt;b&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;b&gt;</code> (o Elemento de Negrita HTML) es un elemento de tipo
+            bloque
+            que puede contener información de negrita.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;b&gt;<br>
+            &lt;strong&gt;<br>
+            &lt;em&gt;<br>
+            &lt;i&gt;<br>
+            &lt;u&gt;<br>
+            &lt;/b&gt;<br>
+            &lt;/strong&gt;<br>
+            &lt;/em&gt;<br>
+            &lt;/i&gt;<br>
+            &lt;/u&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--10-->
+        <h3>Etiqueta <code>&lt;base&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;base&gt;</code> (o Elemento Base HTML) es un elemento de tipo
+            bloque
+            que puede contener información de base.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;base href="http://www.w3.org/"&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--11-->
+        <h3>Etiqueta <code>&lt;bdi&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;bdi&gt;</code> (o Elemento de Texto Bidireccional HTML) es un elemento
+            de tipo
+            bloque
+            que puede contener información de texto bidireccional.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;p dir="ltr"&gt;Esta palabara arábica <br>
+            &lt;bdi&gt;ARABIC_PLACEHOLDER&lt;/bdi&gt; <br>
+            se muestra automáticamente de derecha a izquierda.&lt;/p&gt;
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--12-->
+        <h3>Etiqueta <code>&lt;bdo&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;bdo&gt;</code> (o Elemento de Texto Bidireccional HTML) es un elemento
+            de tipo
+            bloque
+            que puede contener información de texto bidireccional.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;p dir="rtl"&gt;Esta palabra arábica <br>
+            &lt;bdo&gt;ARABIC_PLACEHOLDER&lt;/bdo&gt; <br>
+            se muestra automáticamente de izquierda a derecha.&lt;/p&gt;
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--13-->
+        <h3>Etiqueta <code>&lt;blockquote&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;blockquote&gt;</code> (o Elemento de Cita HTML) es un elemento de tipo
+            bloque
+            que puede contener información de una cita.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;blockquote&gt;<br>
+            &lt;p&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;p&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;/blockquote&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--14-->
+        <h3>Etiqueta <code>&lt;button&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;button&gt;</code> (o Elemento de Botón HTML) es un elemento de tipo
+            bloque
+            que puede contener información de un botón.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;button&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/button&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--15-->
+        <h3>Etiqueta <code>&lt;br&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;br&gt;</code> (o Elemento de Salto de Línea HTML) es un elemento de
+            tipo
+            bloque
+            que puede contener información de un salto de línea.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;p&gt;<br>
+            &lt;br&gt;<br>
+            &lt;br&gt;<br>
+            &lt;/p&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--16-->
+        <h3>Etiqueta <code>&lt;body&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;body&gt;</code> (o Elemento de Cuerpo HTML) es un elemento de tipo
+            bloque
+            que puede contener información de un cuerpo.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;body&gt;<br>
+            &lt;p&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;/body&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--17-->
+        <h3>Etiqueta <code>&lt;canvas&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;canvas&gt;</code> (o Elemento de Lienzo HTML) es un elemento de tipo
+            bloque
+            que puede contener información de un lienzo.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;canvas&gt;<br>
+            &lt;p&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;/canvas&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--18-->
+        <h3>Etiqueta <code>&lt;caption&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;caption&gt;</code> (o Elemento de Tabla HTML) es un elemento de tipo
+            bloque
+            que puede contener información de una tabla.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;table&gt;<br>
+            &lt;caption&gt;<br>
+            &lt;p&gt;<br>
+            &lt;a href="http://www.w3.org"&gt;<br>
+            &lt;img src="http://www.w3.org/Icons/w3c_home" alt="W3C"&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;/caption&gt;<br>
+            &lt;/table&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--19-->
+        <h3>Etiqueta <code>&lt;cite&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;cite&gt;</code> (o Elemento de Cita HTML) es un elemento de tipo
+            bloque
+            que puede contener información de una cita.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;p&gt; <br>
+            &lt;cite&gt;Galileo&lt;/cite&gt; dijo: "... y sin embargo, se mueve." <br>
+            &lt;/p&gt;
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--20-->
+        <h3>Etiqueta <code>&lt;code&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;code&gt;</code> (o Elemento de Código HTML) es un elemento de tipo
+            bloque
+            que puede contener información de un código.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;code&gt;<br>
+            #include main() { for(;;) { printf ("Hello World!\n"); } } <br>
+            &lt;/code&gt;
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--21-->
+        <h3>Etiqueta <code>&lt;col&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;col&gt;</code> (o Elemento de Columna HTML) es un elemento de tipo
+            bloque
+            que puede contener información de una columna.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;table&gt;<br>
+            &lt;col&gt;<br>
+            &lt;col&gt;<br>
+            &lt;col&gt;<br>
+            &lt;col&gt;<br>
+            &lt;/table&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--22-->
+        <h3>Etiqueta <code>&lt;colgroup&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;colgroup&gt;</code> (o Elemento de Columna HTML) es un elemento de
+            tipo
+            bloque
+            que puede contener información de una columna.</p>
+        <p>colgroup de column group = Grupo de columnas. Permite crear grupos de columnas
+        <p>Sus etiquetas son: <code>&lt;colgroup&gt;</code> y <code>&lt;/colgroup&gt;</code> (la de cierre es
+            opcional).
+        </p>
+        </p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;table&gt;<br>
+            &lt;colgroup&gt;<br>
+            &lt;col&gt;<br>
+            &lt;col&gt;<br>
+            &lt;col&gt;<br>
+            &lt;col&gt;<br>
+            &lt;/colgroup&gt;<br>
+            &lt;/table&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--23-->
+        <h3>Etiqueta <code>&lt;content&gt;</code>(obsoleto)</h3>
+        <p>El elemento HTML <code>&lt;content&gt;</code> es usado dentro de un Shadow DOM como un insertion point . No
+            está pensado para
+            ser usado en HTML ordinario . Es usado con Web Components.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;div&gt;<br>
+            &lt;p&gt;<br>
+            &lt;content&gt;<br>
+            &lt;p&gt;<br>
+            &lt;/content&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--24-->
+        <h3>Etiqueta <code>&lt;del&gt;</code></h3>
+        <p>El elemento del (deleted-borrado) marca las partes de un texto o documento que han sido suprimidas o
+            sustituidas.</p>
+
+        <p>Sus etiquetas son: <code>&lt;del&gt;</code> y <code>&lt;/del&gt;</code> (ambas obligatorias).</p>
+        <p>Crea una caja: a veces en linea a veces en bloque.</p>
+        <p>Está definido como:
+            Puede contener: depende, si actua como un elemento en bloque puede contener elementos en bloque y en linea.
+        </p>
+        Pero si actua como un elemento en linea solo podrá contener elementos en linea.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+
+            &lt;p&gt; <br>
+            El agua es insípida &lt;del&gt; y húmeda.&lt;/del&gt; &lt;ins&gt;inodora e incolora.&lt;/ins&gt;
+            &lt;/p&gt; <br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--25-->
+        <h3>Etiqueta <code>&lt;data&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;data&gt;</code> (o Elemento de Datos HTML) es un elemento de tipo
+            bloque
+            que puede contener información de datos.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;ul&gt;<br>
+            &lt;li&gt;&lt;data&gt; value="3967381398">Mini Ketchup&lt;data&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;data&gt; value="3967381399">Jumbo Ketchup&lt;data&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;data&gt; value="3967381400">Mega Jumbo Ketchup&lt;data&gt;&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--26-->
+        <h3>Etiqueta <code>&lt;datalist&gt;</code> </h3>
+        <p>El elemento HTML <code>&lt;datalist&gt;</code> (o Elemento de Lista de Datos HTML) es un elemento de
+            tipo
+            bloque
+            que puede contener información de datos.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;datalist id="browsers"&gt;<br>
+            &lt;option value="Chrome"&gt;<br>
+            &lt;option value="Firefox"&gt;<br>
+            &lt;option value="Microsoft Edge"&gt;<br>
+            &lt;/datalist&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--27-->
+        <h3>Etiqueta <code>&lt;details&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;details&gt;</code> (o Elemento Detalles HTML) es un elemento de tipo
+            bloque
+            que puede contener información de detalles.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;datalist&gt;<br>
+            &lt;summary&gt;Some details&lt;/summary&gt;<br>
+            &lt;p&gt;More info about the details.&lt;/p&gt;<br>
+            &lt;/datalist&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--28-->
+        <h3>Etiqueta <code>&lt;dialog&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;dialog&gt;</code> (o Elemento de Diálogo HTML) es un elemento de tipo
+            bloque
+            que puede contener información de diálogo.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;dialog open&gt;<br>
+            &lt;p&gt;This is a dialog box.&lt;/p&gt;<br>
+            &lt;/dialog&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--29-->
+        <h3>Etiqueta <code>&lt;embed&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;embed&gt;</code> (o Elemento de Incrustación HTML) es un elemento de tipo
+            bloque
+            que puede contener información de incrustación.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;embed src="http://www.youtube.com/v/dQw4w9WgXcQ" type="application/x-shockwave-flash"&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--30-->
+        <h3>Etiqueta <code>&lt;fieldset&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;fieldset&gt;</code> (o Elemento de Campo HTML) es un elemento de tipo
+            bloque
+            que puede contener información de campo.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;fieldset&gt;<br>
+            &lt;legend&gt;Legend&lt;/legend&gt;<br>
+            &lt;p&gt;This is a fieldset.&lt;/p&gt;<br>
+            &lt;/fieldset&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--31-->
+        <h3>Etiqueta <code>&lt;figcaption&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;figcaption&gt;</code> (o Elemento de Figura HTML) es un elemento de tipo
+            bloque
+            que puede contener información de figura.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;figure&gt;<br>
+            &lt;img src="img/img1.jpg" alt="Imagen 1"&gt;<br>
+            &lt;figcaption&gt;This is a caption&lt;/figcaption&gt;<br>
+            &lt;/figure&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--32-->
+        <h3>Etiqueta <code>&lt;footer&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;footer&gt;</code> (o Elemento de Pie HTML) es un elemento de tipo
+            bloque
+            que puede contener información de pie.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;footer&gt;<br>
+            &lt;p&gt;This is a footer.&lt;/p&gt;<br>
+            &lt;/footer&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--33-->
+        <h3>Etiqueta <code>&lt;form&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;form&gt;</code> (o Elemento de Formulario HTML) es un elemento de tipo
+            bloque
+            que puede contener información de formulario.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;form action="form.php" method="post"&gt;<br>
+            &lt;p&gt;<br>
+            &lt;label for="name"&gt;Name:&lt;/label&gt;<br>
+            &lt;input type="text" name="name" id="name"&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;p&gt;<br>
+            &lt;label for="email"&gt;Email:&lt;/label&gt;<br>
+            &lt;input type="email" name="email" id="email"&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;p&gt;<br>
+            &lt;label for="url"&gt;URL:&lt;/label&gt;<br>
+            &lt;input type="url" name="url" id="url"&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;p&gt;<br>
+            &lt;label for="comment"&gt;Comment:&lt;/label&gt;<br>
+            &lt;textarea name="comment" id="comment"&gt;&lt;/textarea&gt;<br>
+            &lt;/p&gt;<br>
+            &lt;p&gt;<br>
+            &lt;input type="submit" value="Submit"&gt
+            &lt;/p&gt;<br>
+            &lt;/form&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--34-->
+        <h3>Etiqueta <code>&lt;h1&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;h1&gt;</code> (o Elemento de Encabezado HTML) es un elemento de tipo
+            bloque
+            que puede contener información de encabezado.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;h1&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/h1&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--35-->
+        <h3>Etiqueta <code>&lt;h2&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;h2&gt;</code> (o Elemento de Encabezado HTML) es un elemento de tipo
+            bloque
+            que puede contener información de encabezado.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;h2&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/h2&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--36-->
+        <h3>Etiqueta <code>&lt;h3&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;h3&gt;</code> (o Elemento de Encabezado HTML) es un elemento de tipo
+            bloque
+            que puede contener información de encabezado.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;h3&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/h3&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--37-->
+        <h3>Etiqueta <code>&lt;h4&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;h4&gt;</code> (o Elemento de Encabezado HTML) es un elemento de tipo
+            bloque
+            que puede contener información de encabezado.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;h4&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/h4&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--38-->
+        <h3>Etiqueta <code>&lt;h5&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;h5&gt;</code> (o Elemento de Encabezado HTML) es un elemento de tipo
+            bloque
+            que puede contener información de encabezado.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;h5&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/h5&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--39-->
+        <h3>Etiqueta <code>&lt;h6&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;h6&gt;</code> (o Elemento de Encabezado HTML) es un elemento de tipo
+            bloque
+            que puede contener información de encabezado.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;h6&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/h6&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--40-->
+        <h3>Etiqueta <code>&lt;hr&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;hr&gt;</code> (o Elemento de Línea Horizontal HTML).</p>
+
+        <p>representa un cambio de tema entre párrafos (por ejemplo, un cambio de escena en una historia, un cambio de
+            tema en una sección). En versiones previas de HTML representaba una línea horizontal. Aún puede ser
+            representada como una línea horizontal en los navegadores visuales, pero ahora es definida en términos
+            semánticos y no tanto en términos representativos, por tanto para dibujar una línea horizontal se debería
+            usar el CSS apropiado.</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;hr&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--41-->
+        <h3>Etiqueta <code>&lt;img&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;img&gt;</code> (o Elemento de Imagen HTML) El elemento de imagen HTML
+            <code>&lt;img&gt;</code> representa una imagen en el documento HTML.
+        </p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;img src="image.jpg" alt="My image"&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--42-->
+        <h3>Etiqueta <code>&lt;input&gt;</code></h3>
+        <p>El elemento HTML <code>&lt;input&gt;</code> se usa para crear controles interactivos para formularios basados
+            en la web con el
+            fin de recibir datos del usuario.Hay disponible una amplia variedad de tipos de datos de entrada y widgets
+            de control, que dependen del dispositivo y el agente de usuario (user agent).</p>
+        <p>El elemento <code>&lt;input&gt;</code> es uno de
+            los más potentes y complejos en todo HTML debido a la gran cantidad de combinaciones de tipos y atributos de
+            entrada.</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;input type="text" name="name"&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--43-->
+        <h3>Etiqueta <code>&lt;label&gt;</code></h3>
+        <p>El Elemento HTML <code>&lt;label&gt;</code> representa una etiqueta para un elemento en una interfaz de
+            usuario. Este puede
+            estar asociado con un control ya sea mediante la utilizacion del atributo for, o ubicando el control
+            dentro del elemento label. Tal control es llamado "el control etiquetado" del elemento label.</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;label for="name"&gt;Name&lt;/label&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--44-->
+        <h3>Etiqueta <code>&lt;legend&gt;</code></h3>
+        <p>El elemento <code>&lt;legend&gt;</code> (leyenda) crea un título para un grupos los campos (&lt;fieldset&gt;)
+            de un formulario.</p>
+
+        <p>Sus etiquetas son: <code>&lt;legend&gt;</code> y <code>&lt;/legend&gt;</code> (ambas obligatorias).</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;legend&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/legend&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--45-->
+        <h3>Etiqueta <code>&lt;li&gt;</code></h3>
+        <p>El elemento <code>&lt;li&gt;</code> (lista de elementos) es un elemento de lista que puede contener
+            cero o más elementos en linea.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;li&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/li&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--46-->
+        <h3>Etiqueta <code>&lt;main&gt;</code></h3>
+        <p>El elemento <code>&lt;main&gt;</code> (contenido principal) es un elemento de contenido que se usa para
+            representar el contenido principal de un documento.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;main&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/main&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--47-->
+        <h3>Etiqueta <code>&lt;mark&gt;</code></h3>
+        <p>El elemento <code>&lt;mark&gt;</code> (marcador) es un elemento de texto que se usa para marcar una parte
+            específica de un texto.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;mark&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/mark&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--48-->
+        <h3>Etiqueta <code>&lt;menu&gt;</code></h3>
+        <p>El elemento <code>&lt;menu&gt;</code> (menu) es un elemento de lista que puede contener
+            cero o más elementos en linea.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;menu&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/menu&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--49-->
+        <h3>Etiqueta <code>&lt;meter&gt;</code></h3>
+        <p>El elemento <code>&lt;meter&gt;</code> (medidor) es un elemento de medida que se usa para representar una
+            medida
+            de proporción.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;meter&gt;<br>
+            &lt;p&gt;This is a meter.&lt;/p&gt;<br>
+            &lt;/meter&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--50-->
+        <h3>Etiqueta <code>&lt;nav&gt;</code></h3>
+        <p>El elemento <code>&lt;nav&gt;</code> (navegación) es un elemento de contenido que se usa para representar
+            una navegación.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;nav&gt;<br>
+            &lt;p&gt;This is a nav.&lt;/p&gt;<br>
+            &lt;/nav&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--51-->
+        <h3>Etiqueta <code>&lt;output&gt;</code></h3>
+        <p>El elemento <code>&lt;output&gt;</code> (salida) es un elemento de contenido que se usa para representar
+            una salida.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;output name="result" for="a b"&gt;60
+            &lt;/output&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--52-->
+        <h3>Etiqueta <code>&lt;progress&gt;</code></h3>
+        <p>El elemento <code>&lt;progress&gt;</code> (progreso) es un elemento de medida que se usa para representar una
+            medida de progreso.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;progress&gt;<br>
+            &lt;p&gt;This is a progress.&lt;/p&gt;<br>
+            &lt;/progress&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--53-->
+        <h3>Etiqueta <code>&lt;section&gt;</code></h3>
+        <p>El elemento <code>&lt;section&gt;</code> (sección) es un elemento de contenido que se usa para representar
+            una sección.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;section&gt;<br>
+            &lt;p&gt;This is a section.&lt;/p&gt;<br>
+            &lt;/section&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--54-->
+        <h3>Etiqueta <code>&lt;summary&gt;</code></h3>
+        <p>El elemento <code>&lt;summary&gt;</code> (resumen) es un elemento de contenido que se usa para representar
+            un resumen.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;summary&gt;<br>
+            &lt;p&gt;This is a summary.&lt;/p&gt;<br>
+            &lt;/summary&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--55-->
+        <h3>Etiqueta <code>&lt;time&gt;</code></h3>
+        <p>El elemento <code>&lt;time&gt;</code> (tiempo) es un elemento de contenido que se usa para representar
+            un tiempo.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;time&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/time&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--56-->
+        <h3>Etiqueta <code>&lt;video&gt;</code></h3>
+        <p>El elemento <code>&lt;video&gt;</code> (vídeo) es un elemento de contenido que se usa para representar
+            un vídeo.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;src="videofile.ogg" autoplay poster="posterimage.jpg">&gt;<br><br>
+            Tu navegador no admite el elemento <code>video</code>. <br>
+        &lt;/video&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--57-->
+        <h3>Etiqueta <code>&lt;wbr&gt;</code></h3>
+        <p>El elemento <code>&lt;wbr&gt;</code> (salto de línea) es un elemento de contenido que se usa para representar
+            un salto de línea.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;wbr&gt;<br>
+            &lt;p&gt;&lt;/p&gt;<br>
+            &lt;/wbr&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--58-->
+        <h3>Etiqueta <code>&lt;head&gt;</code></h3>
+        <p>El elemento <code>&lt;head&gt;</code> (cabecera) es un elemento de contenido que se usa para representar
+            la seccion de encabezado de la pagina</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;head&gt;<br>
+            &lt;title&gt;This is a header.&lt;/title&gt;<br>
+            &lt;/head&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--59-->
+        <h3>Etiqueta <code>&lt;link&gt;</code></h3>
+        <p>El elemento <code>&lt;link&gt;</code> (enlace) es un elemento de contenido que se usa para representar
+            un enlace.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;link href="default.css" rel="stylesheet" title="Default Style"&gt; <br>
+            &lt;link href="fancy.css" rel="alternate stylesheet" title="Fancy"&gt; <br>
+            &lt;link href="basic.css" rel="alternate stylesheet" title="Basic"&gt; <br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--60-->
+        <h3>Etiqueta <code>&lt;style&gt;</code></h3>
+        <p>El elemento <code>&lt;style&gt;</code> (estilo) es un elemento de contenido que se usa para representar
+            un estilo.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;style&gt;
+            body{
+            background-color: #f5f5f5;
+            }
+            &lt;/style&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--61-->
+        <h3>Etiqueta <code>&lt;script&gt;</code></h3>
+        <p>El elemento <code>&lt;script&gt;</code> (script) es un elemento de contenido que se usa para representar
+            un script.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;script&gt; <br>
+            function myFunction() { <br>
+            document.getElementById("demo").innerHTML = "Hello JavaScript!"; <br>
+            } <br>
+            &lt;/script&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--62-->
+        <h3>Etiqueta <code>&lt;html&gt;</code></h3>
+        <p>El elemento <code>&lt;html&gt;</code> (html) es un elemento de contenido que se usa para representar
+            la esctrutura de un documento HTML.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;html&gt;<br>
+            &lt;head&gt;<br>
+            &lt;title&gt;This is a header.&lt;/title&gt;<br>
+            &lt;/head&gt;<br>
+            &lt;body&gt;<br>
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+            &lt;/body&gt;<br>
+            &lt;/html&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--63-->
+        <h3>Etiqueta <code>&lt;ins&gt;</code></h3>
+        <p>El elemento <code>&lt;ins&gt;</code> (inserción) es un elemento de contenido que se usa para representar
+            una inserción.</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;ins&gt;<br>
+            &lt;p&gt;This is a insertion.&lt;/p&gt;<br>
+            &lt;/ins&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--64-->
+        <h3>Etiqueta <code>&lt;div&gt;</code></h3>
+        <p>El elemento <code>&lt;div&gt;</code> (división) es un elemento de contenido que se usa para representar
+            una división de bloques</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;div&gt;<br>
+            &lt;p&gt;This is a division.&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--65-->
+        <h3>Etiqueta <code>&lt;span&gt;</code></h3>
+        <p>El elemento <code>&lt;span&gt;</code> (span) es un elemento de contenido que se usa para representar
+            una etiqueta de una sola línea</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;span&gt;<br>
+            &lt;p&gt;This is a span.&lt;/p&gt;<br>
+            &lt;/span&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--66-->
+        <h3>Etiqueta <code>&lt;header&gt;</code></h3>
+        <p>El elemento <code>&lt;header&gt;</code> (header) es un elemento de contenido que se usa para representar
+            un encabezado</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;header&gt;<br>
+            &lt;p&gt;This is a header.&lt;/p&gt;<br>
+            &lt;/header&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--67-->
+        <h3>Etiqueta <code>&lt;object&gt;</code></h3>
+        <p>
+            The <code>&lt;object&gt;</code> HTML element represents an external resource, which can be treated as an
+            image, a nested browsing context, or a resource to be handled by a plugin.
+        </p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;object type="application/pdf" <br>
+            data="/media/examples/In-CC0.pdf" <br>
+            width="250" <br>
+            height="200"&gt;<br>
+            &lt;/object&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--68-->
+        <h3>Etiqueta <code>&lt;ol&gt;</code></h3>
+        <p>El elemento <code>&lt;ol&gt;</code> (lista ordenada) es un elemento de contenido que se usa para representar
+            una lista ordenada</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;ol&gt;<br>
+            &lt;li&gt;This is a list item.&lt;/li&gt;<br>
+            &lt;/ol&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--69-->
+        <h3>Etiqueta <code>&lt;ul&gt;</code></h3>
+        <p>El elemento <code>&lt;ul&gt;</code> (lista desordenada) es un elemento de contenido que se usa para
+            representar
+            una lista desordenada</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;ul&gt;<br>
+            &lt;li&gt;This is a list item.&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--70-->
+        <h3>Etiqueta <code>&lt;option&gt;</code></h3>
+        <p>El elemento <code>&lt;option&gt;</code> (opción) es un elemento de contenido que se usa para representar
+            una opción de una lista</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;option&gt;<br>
+            &lt;p&gt;This is a option.&lt;/p&gt;<br>
+            &lt;/option&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--71-->
+        <h3>Etiqueta <code>&lt;select&gt;</code></h3>
+        <p>El elemento <code>&lt;select&gt;</code> (select) es un elemento de contenido que se usa para representar
+            una lista desplegable</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;select&gt;<br>
+            &lt;option&gt;This is a option.&lt;/option&gt;<br>
+            &lt;/select&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--72-->
+        <h3>Etiqueta <code>&lt;picture&gt;</code></h3>
+        <p>El elemento <code>&lt;picture&gt;</code> (picture) es un elemento de contenido que se usa para representar
+            una imagen con soporte para diferentes dispositivos</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;picture&gt;<br>
+            &lt;source srcset="..."&gt;<br>
+            &lt;img src="..."&gt;<br>
+            &lt;/picture&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--73-->
+        <h3>Etiqueta <code>&lt;source&gt;</code></h3>
+        <p>El elemento <code>&lt;source&gt;</code> (source) es un elemento de contenido que se usa para representar
+            una imagen con soporte para diferentes dispositivos</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;source srcset="..."&gt;<br>
+            &lt;img src="..."&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--74-->
+        <h3>Etiqueta <code>&lt;map&gt;</code></h3>
+        <p>El elemento <code>&lt;map&gt;</code> (map) es un elemento de contenido que se usa para representar un mapa
+            de una imagen</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;map name="..."&gt;<br>
+            &lt;area shape="..." coords="..." href="..."&gt;<br>
+            &lt;/map&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--75-->
+        <h3>Etiqueta <code>&lt;meta&gt;</code></h3>
+        <p>El elemento <code>&lt;meta&gt;</code> (meta) es un elemento de contenido que se usa para representar
+            información sobre la página</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;meta name="..." content="..."&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--76-->
+        <h3>Etiqueta <code>&lt;small&gt;</code></h3>
+        <p>El elemento <code>&lt;small&gt;</code> (small) es un elemento de contenido que se usa para representar
+            un texto pequeño</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;small&gt;<br>
+            &lt;p&gt;This is a small text.&lt;/p&gt;<br>
+            &lt;/small&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--77-->
+        <h3>Etiqueta <code>&lt;sub&gt;</code></h3>
+        <p>El elemento <code>&lt;sub&gt;</code> (sub) es un elemento de contenido que se usa para representar
+            un texto pequeño</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;sub&gt;<br>
+            &lt;p&gt;This is a sub text.&lt;/p&gt;<br>
+            &lt;/sub&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--78-->
+        <h3>Etiqueta <code>&lt;sup&gt;</code></h3>
+        <p>El elemento <code>&lt;sup&gt;</code> (sup) es un elemento de contenido que se usa para representar
+            un texto pequeño</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;sup&gt;<br>
+            &lt;p&gt;This is a sup text.&lt;/p&gt;<br>
+            &lt;/sup&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--79-->
+        <h3>Etiqueta <code>&lt;strong&gt;</code></h3>
+        <p>El elemento <code>&lt;strong&gt;</code> (strong) es un elemento de contenido que se usa para representar
+            un texto en negrita</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;strong&gt;<br>
+            &lt;p&gt;This is a strong text.&lt;/p&gt;<br>
+            &lt;/strong&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--80-->
+        <h3>Etiqueta <code>&lt;pre&gt;</code></h3>
+        <p>El elemento <code>&lt;pre&gt;</code>(o Texto HTML Preformateado) representa texto preformateado. El texto en
+            este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el
+            archivo. Los espacios dentro de este elemento también son mostrados como están escritos.</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+                &lt;pre&gt;<br>
+                &lt;p&gt;This is a pre text.&lt;/p&gt;<br>
+                &lt;/pre&gt;<br>
+            </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--81-->
+        <h3>Etiqueta <code>&lt;q&gt;</code></h3>
+        <p>El elemento <code>&lt;q&gt;</code> indica que el texto adjunto es una cita corta en línea. La mayoría de los
+            navegadores modernos implementan esto rodeando el texto entre comillas. Este elemento está destinado a citas
+            breves que no requieren saltos de párrafo; para citas de bloque independiente, utiliza el elemento
+            &lt;blockquote&gt;
+        </p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;p&gt;When Dave asks HAL to open the pod bay door, HAL answers: <br>
+             &lt;q cite="https://www.imdb.com/title/tt0062622/quotes/qt0396921"&gt;I'm sorry, Dave. 
+            I'm afraid I can't do that.&lt;/q&gt;&lt;/p&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--82-->
+        <h3>Etiqueta <code>&lt;param&gt;</code></h3>
+        <p>El elemento <code>&lt;param&gt;</code> (param) es un elemento de contenido que se usa para representar
+            un parámetro de un elemento de contenido</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;param name="..." value="..."&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--83-->
+        <h3>Etiqueta <code>&lt;iframe&gt;</code></h3>
+        <p>El elemento <code>&lt;iframe&gt;</code> (iframe) es un elemento de contenido que se usa para representar
+            una ventana de navegación dentro de un documento</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;iframe src="...", id="...", title="..."&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--84-->
+        <h3>Etiqueta <code>&lt;track&gt;</code></h3>
+        <p>El elemento <code>&lt;track&gt;</code> (track) es un elemento de contenido que se usa para representar
+            una pista de audio o de video</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;track kind="..." src="..." srclang="..." label="..."&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--85-->
+        <h3>Etiqueta <code>&lt;font&gt;</code></h3>
+        <p>El elemento <code>&lt;font&gt;</code> (font) es un elemento de contenido que se usa para representar
+            una fuente</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;font size="5" color="#0000ff"&gt; Texto distinto &lt;font&&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--86-->
+        <h3>Etiqueta <code>&lt;noscript&gt;</code></h3>
+        <p>El elemento <code>&lt;noscript&gt;</code> (noscript) es un elemento de contenido que se usa para representar
+            un bloque de código JavaScript que se ejecuta cuando el navegador no soporta JavaScript</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;noscript&gt;<br>
+            &lt;p&gt;This is a noscript text.&lt;/p&gt;<br>
+            &lt;/noscript&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--87-->
+        <h3>Etiqueta <code>&lt;figure&gt;</code></h3>
+        <p>El elemento <code>&lt;figure&gt;</code> (figure) es un elemento de contenido que se usa para representar
+            una figura</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;figure&gt;<br>
+            &lt;img src="..." alt="..."&gt;<br>
+            &lt;figcaption&gt;<br>
+            &lt;p&gt;This is a figcaption text.&lt;/p&gt;<br>
+            &lt;/figcaption&gt;<br>
+            &lt;/figure&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--88-->
+        <h3>Etiqueta <code>&lt;frame&gt;</code></h3>
+        <p>El elemento <code>&lt;frame&gt;</code> (frame) es un elemento de contenido que se usa para representar
+            un marco dentro de un documento</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;frame src="...", id="...", title="..."&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--89-->
+        <h3>Etiqueta <code>&lt;frameset&gt;</code></h3>
+        <p>El elemento <code>&lt;frameset&gt;</code> (frameset) es un elemento de contenido que se usa para representar
+            un conjunto de marcos dentro de un documento</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;frameset rows="..." cols="..."&gt;<br>
+            &lt;frame src="...", id="...", title="..."&gt;<br>
+            &lt;/frameset&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--90-->
+        <h3>Etiqueta <code>&lt;noframes&gt;</code></h3>
+        <p>El elemento <code>&lt;noframes&gt;</code> (noframes) es un elemento de contenido que se usa para representar
+            un bloque de código JavaScript que se ejecuta cuando el navegador no soporta frames</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;noframes&gt;<br>
+            &lt;p&gt;This is a noframes text.&lt;/p&gt;<br>
+            &lt;/noframes&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--91-->
+        <h3>Etiqueta <code>&lt;dir&gt;</code></h3>
+        <p>El elemento <code>&lt;dir&gt;</code> (dir) es un elemento de contenido que se usa para representar
+            una lista de direcciones</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;dir&gt;<br>
+            &lt;li&gt;<br>
+            &lt;p&gt;This is a dir text.&lt;/p&gt;<br>
+            &lt;/li&gt;<br>
+            &lt;/dir&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--92-->
+        <h3>Etiqueta <code>&lt;i&gt;</code></h3>
+        <p>El elemento <code>&lt;i&gt;</code> (i) es un elemento de contenido que se usa para representar
+            una letra en cursiva</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;i&gt;<br>
+            &lt;p&gt;This is a italic text.&lt;/p&gt;<br>
+            &lt;/i&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--93-->
+        <h3>Etiqueta <code>&lt;keygen&gt;</code></h3>
+        <p>El elemento <code>&lt;keygen&gt;</code> (keygen) es un elemento de contenido que se usa para representar
+            un generador de claves</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;keygen name="name" challenge="challenge string" keytype="type" keyparams="pqg-params"&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--94-->
+        <h3>Etiqueta <code>&lt;dt&gt;</code></h3>
+        <p>El elemento <code>&lt;dt&gt;</code> especifica un término en una descripción o lista de definiciones, y como
+            tal debe utilizarse dentro de un elemento </p>
+        <p><code>&lt;dl&gt;</code> Es usualmente seguido por un elemento
+            <code>&lt;dd&gt;</code>; sin embargo, múltiples elementos <dt> en un renglón indican diferentes términos los
+                cuales todos son definidos por el siguiente elemento <code>&lt;dd&gt;</code>.
+        </p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;dl&gt;<br>
+            &lt;dt&gt;<br>
+            &lt;p&gt;This is a dt text.&lt;/p&gt;<br>
+            &lt;/dt&gt;<br>
+            &lt;dd&gt;<br>
+            &lt;p&gt;This is a dd text.&lt;/p&gt;<br>
+            &lt;/dd&gt;<br>
+            &lt;/dl&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--95-->
+        <h3>Etiqueta <code>&lt;dl&gt;</code></h3>
+        <p>El elemento <code>&lt;dl&gt;</code> (dl) es un elemento de contenido que se usa para representar
+            una lista de definiciones</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;dl&gt;<br>
+            &lt;dt&gt;<br>
+            &lt;p&gt;This is a dl text.&lt;/p&gt;<br>
+            &lt;/dt&gt;<br>
+            &lt;dd&gt;<br>
+            &lt;p&gt;This is a dd text.&lt;/p&gt;<br>
+            &lt;/dd&gt;<br>
+            &lt;/dl&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--96-->
+        <h3>Etiqueta <code>&lt;dd&gt;</code></h3>
+        <p>El elemento <code>&lt;dd&gt;</code> (dd) es un elemento de contenido que se usa para representar
+            una definición de una lista de definiciones</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;dl&gt;<br>
+            &lt;dt&gt;<br>
+            &lt;p&gt;This is a dl text.&lt;/p&gt;<br>
+            &lt;/dt&gt;<br>
+            &lt;dd&gt;<br>
+            &lt;p&gt;This is a dd text.&lt;/p&gt;<br>
+            &lt;/dd&gt;<br>
+            &lt;/dl&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--97-->
+        <h3>Etiqueta <code>&lt;table&gt;</code></h3>
+        <p>El elemento <code>&lt;table&gt;</code> (table) es un elemento de contenido que se usa para representar
+            una tabla</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;table&gt;<br>
+            &lt;caption&gt;<br>
+            &lt;p&gt;This is a caption text.&lt;/p&gt;<br>
+            &lt;/caption&gt;<br>
+            &lt;thead&gt;<br>
+            &lt;tr&gt;<br>
+            &lt;th&gt;<br>
+            &lt;p&gt;This is a th text.&lt;/p&gt;<br>
+            &lt;/th&gt;<br>
+            &lt;/tr&gt;<br>
+            &lt;/thead&gt;<br>
+            &lt;tbody&gt;<br>
+            &lt;tr&gt;<br>
+            &lt;td&gt;<br>
+            &lt;p&gt;This is a td text.&lt;/p&gt;<br>
+            &lt;/td&gt;<br>
+            &lt;/tr&gt;<br>
+            &lt;/tbody&gt;<br>
+            &lt;tfoot&gt;<br>
+            &lt;tr&gt;<br>
+            &lt;td&gt;<br>
+            &lt;p&gt;This is a td text.&lt;/p&gt;<br>
+            &lt;/td&gt;<br>
+            &lt;/tr&gt;<br>
+            &lt;/tfoot&gt;<br>
+            &lt;/table&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--98-->
+        <h3>Etiqueta <code>&lt;p&gt;</code></h3>
+        <p>El elemento <code>&lt;p&gt;</code> (p) es un elemento de contenido que se usa para representar
+            un párrafo</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;p&gt;<br>
+            Text <br>
+            &lt;/p&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--99-->
+        <h3>Etiqueta <code>&lt;textarea&gt;</code></h3>
+        <p>El elemento <code>&lt;textarea&gt;</code> (textarea) es un elemento de contenido que se usa para representar
+            un área de texto</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;textarea&gt;<br>
+            Textarea <br>
+            &lt;/textarea&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--100-->
+        <h3>Etiqueta <code>&lt;shadow&gt;</code></h3>
+        <p>El elemento <code>&lt;shadow&gt;</code> (shadow) es un elemento de contenido que se usa para representar
+            una sombra</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;shadow&gt;<br>
+            Shadow <br>
+            &lt;/shadow&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--101-->
+        <h3>Etiqueta <code>&lt;slot&gt;</code></h3>
+        <p>El elemento <code>&lt;slot&gt;</code> (slot) es un elemento de contenido que se usa para representar
+            un espacio reservado</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;slot&gt;<br>
+            Slot <br>
+            &lt;/slot&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <!--102-->
+        <h3>Etiqueta <code>&lt;template&gt;</code></h3>
+        <p>El elemento <code>&lt;template&gt;</code> (template) es un elemento de contenido que se usa para representar
+            una plantilla</p>
+        <p>Puede contener: cero o más elementos en linea</p>
+        <!--Ejemplo-->
+        <code class="ejemplo">
+            &lt;template&gt;<br>
+            Template <br>
+            &lt;/template&gt;<br>
+        </code>
+    </div>
+    <hr>
+
+</body>
+<% if (login){ %>
+    <div class="container">
+        <a href="logout" class="a-logout">Cerrar la sesion</a>
+    </div>
+    <% } else { %>
+        <div class="container">
+            <h2>
+                <%= name %>
+            </h2>
+            <a href="login" class="a-login">Ir al Login</a>
+        </div>
+        <%}%>
+
+</html>

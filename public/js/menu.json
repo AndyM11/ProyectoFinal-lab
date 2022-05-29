@@ -1,0 +1,35 @@
+{
+    "opciones":[
+        {
+            "nombre":"Inicio",
+            "url": "#"
+        },
+        {
+            "nombre":"Nosotros",
+            "url": "#"
+        },
+        {
+            "nombre":"Servicios",
+            "url": "#"
+        },
+        {
+            "nombre":"Contacto",
+            "url": "#"
+        }
+    ],
+
+    "subOpciones":[
+        {
+            "contenido":"Contenido"
+        },
+        {
+            "opcion":"Lorem ipsum dolor sit, amet consectetur adipisicing"
+        },
+        {
+            "opcion":"Lorem ipsum dolor sit, amet consectetur adipisicing"
+        },
+        {
+            "opcion":"Lorem ipsum dolor sit, amet consectetur adipisicing"
+        }
+    ]
+}

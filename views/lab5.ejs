@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu dinamico usando JSON</title>
+    <link rel="stylesheet" href="resources/css/cerrar-seccion.css">
+    <link rel="stylesheet" href="resources/css/lab5.css" />
+    <script src="resources/js/lab5.js"></script>
+</head>
+<body>
+    <nav>
+        <ul id="ul"></ul>
+    </nav>
+    <div class="contenedor-menu" id="submenu">
+        
+    </div>
+</body>
+
+<% if (login){ %>
+    <div class="container">
+        <a href="logout" class="a-logout">Cerrar la sesion</a>
+    </div>
+    <% } else { %>
+        <div class="container">
+            <h2>
+                <%= name %>
+            </h2>
+            <a href="login" class="a-login">Ir al Login</a>
+        </div>
+        <%}%>
+
+</html>

@@ -1,0 +1,95 @@
+{
+    "rutas":[
+        {
+            "nombre": "Lab. 1",
+            "url": "lab1",
+            "class": ""
+        },
+        {
+            "nombre": "Lab. 2",
+            "url": "lab2",
+            "class": ""
+        },
+        {
+            "nombre": "Lab. 3",
+            "url": "lab3",
+            "class": ""
+        },
+        {
+            "nombre": "Lab. 4",
+            "url": "lab4",
+            "class": ""
+        },
+        {
+            "nombre": "Lab. 5",
+            "url": "lab5",
+            "class": ""
+        },
+        {
+            "nombre": "Lab. 6",
+            "url": "lab6",
+            "class": ""
+        },
+        {
+            "nombre": "Lab. 7",
+            "url": "lab7",
+            "class": ""
+        },
+        {
+            "nombre": "Lab. 8",
+            "url": "lab8",
+            "class": ""
+        },
+        {
+            "nombre": "Lab. 9",
+            "url": "lab9",
+            "class": ""
+        },
+
+        {
+            "nombre": "Resumenes",
+            "url": "",
+            "class":"resumenes"
+        }
+    ],
+
+    "resumenes":[
+        {
+            "contenido": "Resumenes"
+        },
+        {
+            	"nombre": "Práctica 0. Arquitectura Web",
+                "url": "https://drive.google.com/file/d/1-aGfGGIHeNrxAIYWgtkXvsjE1QOlKE_x/view?usp=sharing"
+        },
+
+        {
+            "nombre": "Resumen de XML y su uso",
+            "url": "https://drive.google.com/file/d/1v6Z9Xc1skb_RNow8K2iv_Jem319BFlY2/view?usp=sharing"
+        },
+
+        {
+            "nombre": "Resumen de JSON y su uso",
+            "url": "https://drive.google.com/file/d/1AuloZGFOckKOfDhdFoRHLtb-ZcLZZOQ6/view?usp=sharing"
+        },
+
+        {
+            "nombre": "Resumen de AJAX",
+            "url": "https://drive.google.com/file/d/1UKqI0tsx8rK1HogfQg29T4u1BPC3bPdf/view?usp=sharing"
+        },
+
+        {
+            "nombre": "Resumen del Modelo MVC",
+            "url": "https://drive.google.com/file/d/1FrUyW8vctqj6a1zRYOWb10A1SGv2PgqE/view?usp=sharing"
+        },
+
+        {
+            "nombre": "Resumen de Conexión a Base de Datos",
+            "url": "https://drive.google.com/file/d/1pyaWiD3acS_o1pcN2zwnM9K_UVmDXNzC/view?usp=sharing"
+        },
+
+        {
+            "nombre": "Describir las funcionalidades de Spring Framework",
+            "url": "https://drive.google.com/file/d/1S9UWCdOqsVFwlI6Ul7bW4ZLbTW7lfcRj/view?usp=sharing"
+        }
+    ]
+}

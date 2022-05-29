@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="resources/css/cerrar-seccion.css">
+    <link rel="stylesheet" href="resources/css/lab6.css" />
+    <script defer src="resources/js/qrcode.min.js"></script>
+    <script src="resources/js/lab6.js"></script>    
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Formulario de contacto</h1>
+        <div class="contenedor-formulario">
+        <form action="" id="formulario" class="formulario">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+            <input type="email" name="email" id="email" placeholder="Correo">
+            <input type="text" name="telefono" id="telefono" placeholder="Telefono">
+            <select name="pais" id="pais">
+                <option value="">Seleccione un pais</option>
+            </select>
+
+            <input class="enviar" type="submit" value="Generar QR">
+        </form>
+
+        <div id="contenedorQR" class="contenedorQR"></div>
+    </div>
+    </div>
+</body>
+
+<% if (login){ %>
+    <div class="container">
+        <a href="logout" class="a-logout">Cerrar la sesion</a>
+    </div>
+    <% } else { %>
+        <div class="container">
+            <h2>
+                <%= name %>
+            </h2>
+            <a href="login" class="a-login">Ir al Login</a>
+        </div>
+        <%}%>
+</html>

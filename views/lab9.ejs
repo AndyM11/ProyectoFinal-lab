@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedula correcta</title>
+    <link rel="stylesheet" href="resources/css/cerrar-seccion.css">
+    <link rel="stylesheet" href="resources/css/lab4.css" />
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Validador de Cedulas</h1>
+        <div class="formulario">
+            <form action="" method="post">
+                <input type="text" name="cedula" id="cedula" placeholder="Ingrese su cedula">
+                <input type="submit" id="enviar" value="Validar">
+
+                <p class="error active">
+                    El numero de celuda ingresado no es valido.
+                </p>
+
+                <p class="success active">
+                    El numero de celuda ingresado es valido.
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="resources/js/lab9.js"></script>
+</body>
+
+<% if (login){ %>
+    <div class="container">
+        <a href="logout" class="a-logout">Cerrar la sesion</a>
+    </div>
+    <% } else { %>
+        <div class="container">
+            <h2>
+                <%= name %>
+            </h2>
+            <a href="login" class="a-login">Ir al Login</a>
+        </div>
+        <%}%>
+</html>

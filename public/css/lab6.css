@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    height: 100vh;
+    
+}
+
+.contenedor .titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ccc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-formulario form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-formulario input,
+.contenedor-formulario select{
+    width: 100%;
+    height: 40px;
+    border:none;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #78909C;
+    transition: all .3s ease;
+}
+
+.contenedor-formulario input[type="submit"]{
+    border: none;
+}
+
+.contenedor-formulario textarea{
+    height: 100px;
+}
+
+.contenedor-formulario input:focus,
+.contenedor-formulario select:focus,
+.contenedor-formulario textarea:focus{
+    border-bottom: 1px solid #4FC3F7;
+}
+
+.contenedor-formulario .enviar{
+    width: 100%;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    background: #78909C;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.contenedor-formulario input::placeholder,
+.contenedor-formulario select::placeholder{
+    color: #78909C;
+}
+
+.contenedor-formulario .error,
+.contenedor-formulario .error{
+    width: 100%;
+    height: 40px;
+    border:none;
+    border-bottom: 1px solid #EF5350;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #EF5350;
+    transition: all .3s ease;
+}
+
+.contenedor-formulario .error::placeholder{
+    color: #EF5350;
+}
+
+.contenedor-formulario .contenedorQR{
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
