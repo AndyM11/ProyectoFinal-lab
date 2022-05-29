@@ -310,7 +310,7 @@ app.get('/logout', (req, res) => {
     req.session.destroy(()=>{
         res.redirect('/');
     });
-});*/
+});
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
