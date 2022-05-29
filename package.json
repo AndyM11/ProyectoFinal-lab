@@ -2,9 +2,9 @@
   "name": "proyectofinal",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index"
   },
   "keywords": [],
   "author": "Andy Manuel Reyes Del Rosario",
