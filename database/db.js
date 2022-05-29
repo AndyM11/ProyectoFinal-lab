@@ -2,9 +2,9 @@ const mysql = require('mysql');
 
 const conexion = mysql.createConnection({
     database: "login_node",
-    user: "c7x80zy4agmi",
+    user: "pttxcacn56te",
     host: "54v3bb66nspk.us-east-3.psdb.cloud",
-    password: "pscale_pw_pkdwdqSSZot3Pcqbusgf6Ulh2DRZPe3IvfP7b5QDsDo",
+    password: "pscale_pw_xTMFUDLSAnhVw8LL898dBZSVACVaCsJuTukKV-gjj5U",
     ssl:{
         rejectUnauthorized: false
     }
