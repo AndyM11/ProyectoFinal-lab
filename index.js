@@ -3,14 +3,12 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const PORT = process.env.PORT || 3000;
-
+/*
 //2. seteamos urlencoded para capturar los datos del formulario
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-//3. invocamos a dotenv
-/*const dotenv = require('dotenv');
-dotenv.config({path: './env./env'});*/
+
 
 //4. establecemos la ruta de la carpeta public
 app.use('/resources', express.static('public'));
@@ -42,9 +40,7 @@ app.get('/register', (req, res) => {
     res.render('register');
 });
 
-/*app.get('/lab1', (req, res) => {
-    res.render('lab1');
-});*/
+
 
 //10. Registramos el usuario
 app.post('/register', async (req, res) => {
@@ -316,7 +312,7 @@ app.get('/logout', (req, res) => {
     req.session.destroy(()=>{
         res.redirect('/');
     });
-});
+});*/
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
