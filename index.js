@@ -27,7 +27,7 @@ app.use(session({
     resave: true,
     saveUninitialized: true
 }));
-/*
+
 //8. invocamos al modulo conexion de la BD
 const conexion = require('./database/db');
 
@@ -40,7 +40,7 @@ app.get('/register', (req, res) => {
     res.render('register');
 });
 
-
+/*
 
 //10. Registramos el usuario
 app.post('/register', async (req, res) => {
