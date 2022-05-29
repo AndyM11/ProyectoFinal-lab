@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const PORT = process.env.PORT || 3000;
-/*
+
 //2. seteamos urlencoded para capturar los datos del formulario
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
@@ -27,7 +27,7 @@ app.use(session({
     resave: true,
     saveUninitialized: true
 }));
-
+/*
 //8. invocamos al modulo conexion de la BD
 const conexion = require('./database/db');
 
